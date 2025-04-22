@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function(){
      opcoesDeAcessibilidade.classList.toggle('apresenta-lista')
  
      const botaoSelecionado = botaoDeAcessibilidade.getAttribute('aria-expanded') === 'true';
-     botaoDeAcessibilidade.setAttribute('aria-expanded', !botaoSelecionado)
+     botaoDeAcessibilidade.setAttribute('aria-expanded', !botaoSelecionado);
    
     })
  
